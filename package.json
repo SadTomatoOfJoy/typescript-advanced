@@ -1,0 +1,15 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "A presentation of different use-case for some advanced typescript concepts",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "typescript": "^4.6.3",
+    "ts-node": "^10.7.0",
+    "esbuild": "^0.14.39"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "author": "SadTomatoOfJoy"
+}

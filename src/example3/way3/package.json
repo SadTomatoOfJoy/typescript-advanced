@@ -1,0 +1,7 @@
+{
+  "type":  "module",
+  "scripts": {
+    "build": "../../../node_modules/.bin/esbuild src/run.ts --bundle --inject:./type/findLast/index.ts --outfile=dist/out.js",
+    "start": "node dist/out.js"
+  }
+}

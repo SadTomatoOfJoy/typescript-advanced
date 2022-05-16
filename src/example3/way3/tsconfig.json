@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "target": "ES2021",
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types", "type"], // we add the new folder for our custom typings
+    "types": ["node", "findLast"] // we add the .d.ts file that contains the typings we want globally
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

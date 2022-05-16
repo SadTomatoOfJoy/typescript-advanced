@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "Node",
+    "preserveConstEnums": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "lib": ["ES2021"],
+    "target": "ES2022",
+    "outDir": "./dist",
+    "types": ["node"],
+    "module": "CommonJS"
+  },
+  "files": ["src/withMetadata.ts", "src/solution.ts"],
+  "exclude": [
+    "../node_modules"
+  ]
+}

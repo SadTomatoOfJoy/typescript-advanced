@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start1": "../../node_modules/.bin/ts-node mixin1.ts",
+    "start2": "../../node_modules/.bin/ts-node mixin2.ts"
+  }
+}

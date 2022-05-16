@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "lib": ["ES2021"],
+    "target": "ES2021",
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": ["./src/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+}

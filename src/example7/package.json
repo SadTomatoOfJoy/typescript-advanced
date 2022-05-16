@@ -1,0 +1,13 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "../../node_modules/.bin/ts-node src/solution.ts",
+    "startWithMetadata": "../../node_modules/.bin/ts-node src/withMetadata.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
